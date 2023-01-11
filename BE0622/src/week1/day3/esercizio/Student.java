@@ -15,6 +15,7 @@ public class Student {
 		
 	}
 	
+
 	public String getFullname() {
 		return this.nome + " " + this.cognome;
 	}

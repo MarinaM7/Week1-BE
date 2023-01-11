@@ -2,22 +2,20 @@ package week1.day3.esercizio;
 
 public class Main {
 	
-//static Student[] students;
+	static Student[] students;
 
 	public static void main(String[] args) {
 		
-	
-//	students = new Student {
-//		new Student("mario", "marc", new double[] {8,9,0}, 'm');
-//		new Student("mario", "marc", new double[] {8,9,0}, 'm');
-//		new Student("mario", "marc", new double[] {8,9,0}, 'm');
-//		new Student("mario", "marc", new double[] {8,9,0}, 'm');
-//		new Student("mario", "marc", new double[] {8,9,0}, 'm');
-//		}
+		students = new Student[] {
+			new Student("Mario", "Rossi", new double[] {9,6,7}, 'm'),
+			new Student("Marco", "Verdi", new double[] {10,5,6}, 'm'),
+			new Student("Giulia", "Gialli", new double[] {9,4,8}, 'f'),
+			new Student("Anna", "Bianchi", new double[] {7,7,6}, 'f'),
+			new Student("Paolo", "Neri", new double[] {9,4,5}, 'm'),
+			new Student("Gina", "Stinky", new double[] {9,10,7}, 'f')
+			};
 
 	}
-	
-
 	
 	static void printBestM() {
 		
