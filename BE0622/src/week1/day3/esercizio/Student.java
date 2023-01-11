@@ -33,4 +33,8 @@ public class Student {
 		
 	}
 	
+	public String getMedia() {
+		return String.format("%.1f", this.getAvgVote());
+	}
+	
 }
