@@ -8,7 +8,7 @@ Utilizzo del main e implementazione di alcuni metodi.
 
 ## Giorno 2
 Le classi in Java.
-Uso di funzioni e metodi
+Uso di funzioni e metodi.
 
 ## Giorno 3
 Algoritmi in Java.
